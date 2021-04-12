@@ -1,18 +1,14 @@
 {
-  "name": "udemy-graphql-with-react-intro-repos",
+  "name": "udemy-graphql-with-react-intro-search-repos",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "apollo-boost": "^0.4.9",
-    "graphql": "^15.5.0",
-    "react": "^17.0.2",
-    "react-apollo": "^3.1.5",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "apollo-boost": "0.1.16",
+    "graphql": "14.0.2",
+    "react": "^16.5.2",
+    "react-apollo": "2.1.11",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,21 +17,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
