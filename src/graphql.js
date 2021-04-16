@@ -20,6 +20,7 @@ export const SEARCH_REPOSITORIES = gql`
             stargazers{
               totalCount
             }
+            viewerHasStarred
           }
         }
       }
